@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>resources/Base.png</file>
+        <file>resources/Block.png</file>
+        <file>resources/Combiner.png</file>
+        <file>resources/IX.png</file>
+        <file>resources/Miner.png</file>
+        <file>resources/RoaterLeft.png</file>
+        <file>resources/RoaterRight.png</file>
+        <file>resources/Splitter.png</file>
+        <file>resources/Trash.png</file>
+        <file>resources/Grid.png</file>
+    </qresource>
+</RCC>

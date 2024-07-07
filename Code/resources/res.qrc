@@ -1,0 +1,67 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>Block.png</file>
+        <file>Combiner.png</file>
+        <file>Grid.png</file>
+        <file>IX.png</file>
+        <file>Miner.png</file>
+        <file>res.qrc</file>
+        <file>RoaterLeft.png</file>
+        <file>RoaterRight.png</file>
+        <file>Splitter.png</file>
+        <file>Trash.png</file>
+        <file>Conveyor.png</file>
+        <file>ConveyorTurnD.png</file>
+        <file>ConveyorTurnU.png</file>
+        <file>Base.png</file>
+        <file>Round.png</file>
+        <file>RoundMine.png</file>
+        <file>Center2x2.png</file>
+        <file>Center4x4.png</file>
+        <file>ConveyorButton.png</file>
+        <file>MinerButton.png</file>
+        <file>SplitterButton.png</file>
+        <file>TrashButton.png</file>
+        <file>CombineButton.png</file>
+        <file>Eraser.png</file>
+        <file>barrier.png</file>
+        <file>HanYiWenHei_65W.ttf</file>
+        <file>Rect.png</file>
+        <file>RectMine.png</file>
+        <file>PauseButton.png</file>
+        <file>PlayButton.png</file>
+        <file>CombinerButton.png</file>
+        <file>ToolBar.png</file>
+        <file>secret.png</file>
+        <file>Start.png</file>
+        <file>logo.png</file>
+        <file>newButton.png</file>
+        <file>startButton.png</file>
+        <file>Finish.png</file>
+        <file>infityButton.png</file>
+        <file>Welcome.png</file>
+        <file>Bubble.png</file>
+        <file>BubbleMine.png</file>
+        <file>TipsButton.png</file>
+        <file>Tips.png</file>
+        <file>StoreButton.png</file>
+        <file>CloseButton.png</file>
+        <file>RoaterRightButton.png</file>
+        <file>sky.png</file>
+        <file>ConveyorMark.png</file>
+        <file>ConveyorTurn.png</file>
+        <file>ConveyorPut.png</file>
+        <file>Card.png</file>
+        <file>ico.ico</file>
+    </qresource>
+    <qresource prefix="/font">
+        <file>HanYiWenHei_65W.ttf</file>
+    </qresource>
+    <qresource prefix="/music">
+        <file>Feather.mp3</file>
+        <file>Galaxy.mp3</file>
+        <file>Heart.mp3</file>
+        <file>Journey.mp3</file>
+        <file>Sun.mp3</file>
+    </qresource>
+</RCC>

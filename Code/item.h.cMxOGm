@@ -1,0 +1,34 @@
+#ifndef ITEM_H
+#define ITEM_H
+
+#include <QObject>
+#include <QPainter>
+#include <QDebug>
+
+#include "global.h"
+
+class Item : public QObject
+{
+    Q_OBJECT
+public:
+    QString itemImg;
+    int rx, ry, type;
+    double process;
+    explicit Item(int rx, int ry, int type,
+                  QObject *parent = nullptr); // 传入的是像素 x, y
+    ~Item();
+    void draw(QPainter &painter);
+    bool isSplittable();
+    void setType(int type); // 设置元素类别
+    void addPos(int vx, int vy); // 增量更新位置
+    double getProcess(); // 获取移动进度
+    void setProcess(double process); // 设置移动进度
+    void setPos(int rx, int ry); // 设置元素位置
+    void setPos(QPoint p); // 设置元素位置
+signals:
+};
+
+// 元素列表
+extern QList<Item *> items;
+
+#endif // ITEM_H
